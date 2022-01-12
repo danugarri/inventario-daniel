@@ -1,0 +1,45 @@
+.loader1 {
+  width: 30px;
+  height: 30px;
+  background-color:white;
+  margin : 0 -40px;
+  border: 10px solid #BD4E1E;
+  border-right: 10px solid white;
+  border-radius: 50%;
+  animation: spinIT 0.8s linear infinite;
+  transition-property:border;
+  z-index: 0;
+  position: fixed;
+
+} 
+/*make it spin*/
+
+@keyframes spinIT {
+  0% { transform: rotate(0deg); }
+  10% { border-right: 10px solid  #BD4E1E; }
+  100% { transform: rotate(360deg);}
+  
+} 
+.loader2 {
+  width: 30px;
+  height: 30px;
+  background-color:white;
+  border: 10px solid #BD4E1E;
+  border-left: 10px solid white;
+  border-radius: 50%;
+  animation: spinIT2 0.8s linear infinite;
+  position: fixed;
+} 
+/*make it spin*/
+@keyframes spinIT2 {
+  0% { transform: rotate(0deg); }
+  20% { border-left: 10px solid   #BD4E1E;}
+  100% { transform: rotate(360deg); }
+ 
+} 
+#container{
+    display:flex;
+    flex-direction: row;
+    margin: 15% 50%;
+    filter: drop-shadow(0px 0px 8px gray);
+}

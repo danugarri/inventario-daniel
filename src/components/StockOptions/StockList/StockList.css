@@ -1,0 +1,14 @@
+#table-stock{
+    margin:30px auto;
+    border-bottom: 2px solid black;
+    padding: 40px;
+
+}
+tfoot{
+border-top: 2px solid black;
+
+    
+}
+td{
+    padding:10px
+}

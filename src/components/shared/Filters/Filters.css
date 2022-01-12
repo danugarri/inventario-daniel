@@ -1,0 +1,27 @@
+
+#form-demo{
+    margin: 30px auto;
+    /* border: 1px solid black; */
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.label-demo{
+    display: inline;
+    margin: 20px 50px;
+}
+.select{
+    width: '10px';
+    height: 50px;
+    cursor: pointer;
+    text-align: justify;
+}
+#input-demo{
+    display: block;
+      margin: 20px  40px;
+}

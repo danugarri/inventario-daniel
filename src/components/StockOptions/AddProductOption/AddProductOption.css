@@ -1,0 +1,17 @@
+#crear{
+    background-color: rgb(230, 192, 27);
+    width:fit-content;
+    margin:100px auto;
+    padding:10px;
+    border: 2px solid black;
+    text-align: center;
+
+}
+label{
+    display: block;
+}
+input[type=submit]{
+    display: block;
+    margin:20px auto;
+  
+}

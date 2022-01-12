@@ -1,0 +1,11 @@
+#table{
+    border: 2px solid black;
+    margin: 100px auto 0 auto;
+    padding: 20px;
+    z-index:0;
+
+}
+th{
+    border-bottom: 2px solid black;
+}
+
